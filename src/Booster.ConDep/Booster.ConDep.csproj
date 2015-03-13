@@ -30,18 +30,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AWSSDK, Version=2.3.25.0, Culture=neutral, PublicKeyToken=9f476d3089b52be3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\AWSSDK.2.3.25.0\lib\net35\AWSSDK.dll</HintPath>
+    </Reference>
     <Reference Include="ConDep">
       <HintPath>..\packages\ConDep.3.2.0\lib\net40\ConDep.exe</HintPath>
     </Reference>
     <Reference Include="ConDep.Dsl">
       <HintPath>..\packages\ConDep.Dsl.4.0.0\lib\net40\ConDep.Dsl.dll</HintPath>
     </Reference>
-    <Reference Include="ConDep.Dsl.Operations, Version=3.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="ConDep.Dsl.Operations, Version=3.2.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\condep-dsl-operations\src\ConDep.Dsl.Operations\bin\Debug\ConDep.Dsl.Operations.dll</HintPath>
+      <HintPath>..\packages\ConDep.Dsl.Operations.3.2.1\lib\net40\ConDep.Dsl.Operations.dll</HintPath>
     </Reference>
-    <Reference Include="ConDep.Dsl.Operations.Aws">
-      <HintPath>..\..\..\condep-dsl-operations-aws\src\ConDep.Dsl.Operations.Aws\bin\Debug\ConDep.Dsl.Operations.Aws.dll</HintPath>
+    <Reference Include="ConDep.Dsl.Operations.Aws, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\ConDep.Dsl.Operations.Aws.3.1.0\lib\net40\ConDep.Dsl.Operations.Aws.dll</HintPath>
     </Reference>
     <Reference Include="ConDep.Dsl.Remote.Helpers">
       <HintPath>..\packages\ConDep.Dsl.Remote.Helpers.3.1.0\lib\net20\ConDep.Dsl.Remote.Helpers.dll</HintPath>
